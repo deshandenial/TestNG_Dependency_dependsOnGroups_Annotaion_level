@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62451" started-at="2019-08-31T12:40:32Z" finished-at="2019-08-31T12:41:34Z">
+    <groups>
+      <group name="four">
+        <method signature="Demo_DependsOnGroups_in_TestNG.Drag_and_Drop()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Drag_and_Drop" class="com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG"/>
+      </group> <!-- four -->
+      <group name="one">
+        <method signature="Demo_DependsOnGroups_in_TestNG.AlertIsPresent()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="AlertIsPresent" class="com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG"/>
+      </group> <!-- one -->
+      <group name="three">
+        <method signature="Demo_DependsOnGroups_in_TestNG.Dynamically_Identify_Tables_Data()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Dynamically_Identify_Tables_Data" class="com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG"/>
+      </group> <!-- three -->
+      <group name="two">
+        <method signature="Demo_DependsOnGroups_in_TestNG.Simple_Alert()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Simple_Alert" class="com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG"/>
+      </group> <!-- two -->
+    </groups>
+    <test name="Default test" duration-ms="62451" started-at="2019-08-31T12:40:32Z" finished-at="2019-08-31T12:41:34Z">
+      <class name="com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="beforeTest" is-config="true" duration-ms="9971" started-at="2019-08-31T12:40:32Z" finished-at="2019-08-31T12:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Dynamically_Identify_Tables_Data()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Dynamically_Identify_Tables_Data" duration-ms="14920" started-at="2019-08-31T12:40:42Z" finished-at="2019-08-31T12:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamically_Identify_Tables_Data -->
+        <test-method status="PASS" signature="AlertIsPresent()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="AlertIsPresent" duration-ms="12617" started-at="2019-08-31T12:40:57Z" finished-at="2019-08-31T12:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertIsPresent -->
+        <test-method status="PASS" signature="Drag_and_Drop()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Drag_and_Drop" duration-ms="7371" started-at="2019-08-31T12:41:09Z" finished-at="2019-08-31T12:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Drag_and_Drop -->
+        <test-method status="PASS" signature="Simple_Alert()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="Simple_Alert" duration-ms="16166" depends-on-groups="three" started-at="2019-08-31T12:41:17Z" finished-at="2019-08-31T12:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Simple_Alert -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG@55f3ddb1]" name="afterTest" is-config="true" duration-ms="1196" started-at="2019-08-31T12:41:33Z" finished-at="2019-08-31T12:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNG_Dependency_dependsOnGroups.Demo_DependsOnGroups_in_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
